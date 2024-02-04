@@ -13,6 +13,7 @@
 		6AED67592B6B7A6F001BD70A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AED67572B6B7A6F001BD70A /* Main.storyboard */; };
 		6AED675B2B6B7A7B001BD70A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AED675A2B6B7A7B001BD70A /* Assets.xcassets */; };
 		6AED675E2B6B7A7B001BD70A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AED675C2B6B7A7B001BD70A /* LaunchScreen.storyboard */; };
+		6AED676B2B6F6D7B001BD70A /* mixkit-rooster-crowing-in-the-morning-2462.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6AED676A2B6F6D7B001BD70A /* mixkit-rooster-crowing-in-the-morning-2462.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6AED675A2B6B7A7B001BD70A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AED675D2B6B7A7B001BD70A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AED675F2B6B7A7B001BD70A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AED676A2B6F6D7B001BD70A /* mixkit-rooster-crowing-in-the-morning-2462.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-rooster-crowing-in-the-morning-2462.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,19 @@
 				6AED67552B6B7A6F001BD70A /* ViewController.swift */,
 				6AED67572B6B7A6F001BD70A /* Main.storyboard */,
 				6AED675A2B6B7A7B001BD70A /* Assets.xcassets */,
+				6AED67672B6F6CBC001BD70A /* sounds */,
 				6AED675C2B6B7A7B001BD70A /* LaunchScreen.storyboard */,
 				6AED675F2B6B7A7B001BD70A /* Info.plist */,
 			);
 			path = "Clock App";
+			sourceTree = "<group>";
+		};
+		6AED67672B6F6CBC001BD70A /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6AED676A2B6F6D7B001BD70A /* mixkit-rooster-crowing-in-the-morning-2462.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AED675E2B6B7A7B001BD70A /* LaunchScreen.storyboard in Resources */,
+				6AED676B2B6F6D7B001BD70A /* mixkit-rooster-crowing-in-the-morning-2462.wav in Resources */,
 				6AED675B2B6B7A7B001BD70A /* Assets.xcassets in Resources */,
 				6AED67592B6B7A6F001BD70A /* Main.storyboard in Resources */,
 			);
@@ -294,6 +306,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +334,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
