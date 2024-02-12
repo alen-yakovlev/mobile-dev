@@ -7,30 +7,38 @@
 
 import UIKit
 
-@main
+
+
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Create an instance of the Adventure model
+        let adventure = Adventure(option1: "Start Adventure", option2: "Second Decision",
+                                   outcome1: .success, outcome2: .failure,
+                                   nextAdventure1: .nextAdventure(nestedAdventure), nextAdventure2: .nextAdventure(adventure3))
+        
+        print("Adventure object created: \(adventure)")
+        
+        // Get a reference to the main storyboard
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        
+        // Instantiate the AdventureViewController from the storyboard
+        guard let adventureViewController = storyboard.instantiateViewController(withIdentifier: "AdventureViewController") as? AdventureViewController else {
+            fatalError("Unable to instantiate AdventureViewController from the storyboard")
+        }
+        
+        // Set the adventure property of the AdventureViewController
+        adventureViewController.adventure = adventure
+        
+        // Set the AdventureViewController as the root view controller
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = adventureViewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
-
 }
 
