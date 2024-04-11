@@ -21,7 +21,7 @@ struct MainView: View {
             
             Spacer()
             
-            Text("User is Logged In!")
+            Text("Current World Golf Rankings:")
                 .font(.title.bold())
             
             Spacer()

@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A72C3E52BC66DF100CDF4E0 /* Golf_Scores_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3E42BC66DF100CDF4E0 /* Golf_Scores_AppApp.swift */; };
-		6A72C3E72BC66DF100CDF4E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3E62BC66DF100CDF4E0 /* ContentView.swift */; };
+		6A72C3E52BC66DF100CDF4E0 /* GolfLeaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3E42BC66DF100CDF4E0 /* GolfLeaderApp.swift */; };
+		6A72C3E72BC66DF100CDF4E0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3E62BC66DF100CDF4E0 /* LoginView.swift */; };
 		6A72C3E92BC66DF300CDF4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A72C3E82BC66DF300CDF4E0 /* Assets.xcassets */; };
 		6A72C3EC2BC66DF300CDF4E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A72C3EB2BC66DF300CDF4E0 /* Preview Assets.xcassets */; };
+		6A72C3F52BC7259900CDF4E0 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3F42BC7259900CDF4E0 /* NewAccountView.swift */; };
+		6A72C3F72BC7284A00CDF4E0 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C3F62BC7284A00CDF4E0 /* ResetPasswordView.swift */; };
+		6A72C3F92BC7384500CDF4E0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A72C3F82BC7384500CDF4E0 /* GoogleService-Info.plist */; };
+		6A72C3FC2BC7402100CDF4E0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6A72C3FB2BC7402100CDF4E0 /* FirebaseAnalytics */; };
+		6A72C3FE2BC7402100CDF4E0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6A72C3FD2BC7402100CDF4E0 /* FirebaseFirestore */; };
+		6A72C4002BC7402100CDF4E0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6A72C3FF2BC7402100CDF4E0 /* FirebaseFirestoreSwift */; };
+		6A72C4032BC7439400CDF4E0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6A72C4022BC7439400CDF4E0 /* FirebaseAuth */; };
+		6A72C4052BC775FB00CDF4E0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C4042BC775FB00CDF4E0 /* MainView.swift */; };
+		6A72C4082BC780FC00CDF4E0 /* GolfModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C4072BC780FC00CDF4E0 /* GolfModel.swift */; };
+		6A72C40A2BC781EF00CDF4E0 /* GolfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A72C4092BC781EF00CDF4E0 /* GolfViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A72C3E12BC66DF100CDF4E0 /* Golf Scores App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Scores App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A72C3E42BC66DF100CDF4E0 /* Golf_Scores_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_Scores_AppApp.swift; sourceTree = "<group>"; };
-		6A72C3E62BC66DF100CDF4E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6A72C3E42BC66DF100CDF4E0 /* GolfLeaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfLeaderApp.swift; sourceTree = "<group>"; };
+		6A72C3E62BC66DF100CDF4E0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		6A72C3E82BC66DF300CDF4E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A72C3EB2BC66DF300CDF4E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A72C3F42BC7259900CDF4E0 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		6A72C3F62BC7284A00CDF4E0 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		6A72C3F82BC7384500CDF4E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A72C4042BC775FB00CDF4E0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6A72C4072BC780FC00CDF4E0 /* GolfModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfModel.swift; sourceTree = "<group>"; };
+		6A72C4092BC781EF00CDF4E0 /* GolfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +42,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A72C3FC2BC7402100CDF4E0 /* FirebaseAnalytics in Frameworks */,
+				6A72C3FE2BC7402100CDF4E0 /* FirebaseFirestore in Frameworks */,
+				6A72C4002BC7402100CDF4E0 /* FirebaseFirestoreSwift in Frameworks */,
+				6A72C4032BC7439400CDF4E0 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +57,7 @@
 			children = (
 				6A72C3E32BC66DF100CDF4E0 /* Golf Scores App */,
 				6A72C3E22BC66DF100CDF4E0 /* Products */,
+				6A72C4012BC7439400CDF4E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +72,11 @@
 		6A72C3E32BC66DF100CDF4E0 /* Golf Scores App */ = {
 			isa = PBXGroup;
 			children = (
-				6A72C3E42BC66DF100CDF4E0 /* Golf_Scores_AppApp.swift */,
-				6A72C3E62BC66DF100CDF4E0 /* ContentView.swift */,
+				6A72C3E42BC66DF100CDF4E0 /* GolfLeaderApp.swift */,
+				6A72C4072BC780FC00CDF4E0 /* GolfModel.swift */,
+				6A72C4092BC781EF00CDF4E0 /* GolfViewModel.swift */,
+				6A72C4062BC77EDC00CDF4E0 /* Views */,
+				6A72C3F82BC7384500CDF4E0 /* GoogleService-Info.plist */,
 				6A72C3E82BC66DF300CDF4E0 /* Assets.xcassets */,
 				6A72C3EA2BC66DF300CDF4E0 /* Preview Content */,
 			);
@@ -65,6 +89,24 @@
 				6A72C3EB2BC66DF300CDF4E0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A72C4012BC7439400CDF4E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A72C4062BC77EDC00CDF4E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A72C3F62BC7284A00CDF4E0 /* ResetPasswordView.swift */,
+				6A72C4042BC775FB00CDF4E0 /* MainView.swift */,
+				6A72C3E62BC66DF100CDF4E0 /* LoginView.swift */,
+				6A72C3F42BC7259900CDF4E0 /* NewAccountView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +125,12 @@
 			dependencies = (
 			);
 			name = "Golf Scores App";
+			packageProductDependencies = (
+				6A72C3FB2BC7402100CDF4E0 /* FirebaseAnalytics */,
+				6A72C3FD2BC7402100CDF4E0 /* FirebaseFirestore */,
+				6A72C3FF2BC7402100CDF4E0 /* FirebaseFirestoreSwift */,
+				6A72C4022BC7439400CDF4E0 /* FirebaseAuth */,
+			);
 			productName = "Golf Scores App";
 			productReference = 6A72C3E12BC66DF100CDF4E0 /* Golf Scores App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +159,9 @@
 				Base,
 			);
 			mainGroup = 6A72C3D82BC66DF100CDF4E0;
+			packageReferences = (
+				6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 6A72C3E22BC66DF100CDF4E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A72C3EC2BC66DF300CDF4E0 /* Preview Assets.xcassets in Resources */,
+				6A72C3F92BC7384500CDF4E0 /* GoogleService-Info.plist in Resources */,
 				6A72C3E92BC66DF300CDF4E0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A72C3E72BC66DF100CDF4E0 /* ContentView.swift in Sources */,
-				6A72C3E52BC66DF100CDF4E0 /* Golf_Scores_AppApp.swift in Sources */,
+				6A72C3E72BC66DF100CDF4E0 /* LoginView.swift in Sources */,
+				6A72C4082BC780FC00CDF4E0 /* GolfModel.swift in Sources */,
+				6A72C3F52BC7259900CDF4E0 /* NewAccountView.swift in Sources */,
+				6A72C40A2BC781EF00CDF4E0 /* GolfViewModel.swift in Sources */,
+				6A72C3E52BC66DF100CDF4E0 /* GolfLeaderApp.swift in Sources */,
+				6A72C4052BC775FB00CDF4E0 /* MainView.swift in Sources */,
+				6A72C3F72BC7284A00CDF4E0 /* ResetPasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +399,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6A72C3FB2BC7402100CDF4E0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6A72C3FD2BC7402100CDF4E0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6A72C3FF2BC7402100CDF4E0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		6A72C4022BC7439400CDF4E0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6A72C3FA2BC7402000CDF4E0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6A72C3D92BC66DF100CDF4E0 /* Project object */;
 }
